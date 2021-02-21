@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+	  <link rel="stylesheet" type="text/css" href="main.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <meta name="description" content="main">
+  <meta name="keywords" content="main">
+
+</head>
+<body>
+
+    <div id="name1"></div>
+    </div>
+        <button id="btn_modal_window7">Смотреть решение</button>
+  <div id="my_modal7" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window7">×</span>
+      <p>Функция считывает текст из всплывающего окна alert и выводит на экран.</p>
+    </div>
+  </div>
+  
+	
+  <!-- ЗАГОЛОВОК -->
+	<div >
+		<img id="header1" src="header1.png">
+	</div>
+	
+
+	<div class="width">
+		  <!-- ОПИСАНИЕ ЯЗЫКА -->
+		<div class="text">
+			<p>
+		
+			<span class="colortext">JavaScript</span> - это язык сценариев для интернета. Он является интерпретируемым языком : для написания и запуска скриптов не требуется компилятора, как в других языках. Можно просто написать сценарий (в html документе или в отдельном js файле), затем загрузить страницу в web-браузере. Он обычно применяется в качестве встраиваемого инструмента для программного доступа к различным объектам приложений.</p>
+			<p class="colortext"> Для чего нужен JavaScript?</p>
+			<ul>
+				<li>Математические операции</li>
+				<li>Обработка и валидация данных в HTML-формах</li>
+				<li>Взаимодействие с пользователем и событиями</li>
+				<li>Взаимодействие с HTML-элементами на странице и управление их содержимым и стилями</li>
+				<li>Добавление анимации и различных графических эффектов на веб-страницы</li>
+			</ul>
+			
+			<span class="colortext">Минусы</span>
+			<p>
+			Язык компилируется в момент исполнения кода. Из-за этого увеличивается время выполнения программы.
+			</p>
+			
+		</div>
+	
+
+		<div>
+			<p class="colortext">
+				Примеры решения некоторых задач на языке  JavaScript
+			</p>
+		</div>
+		<div>
+			<p>
+				Посчитаем площадь треугольника. Введите основание и высоту.
+			</p>
+		</div>
+  <!-- ПЛОЩАДЬ ТРЕУГОЛЬНИКА -->		
+		<div>
+			<form name="test2">
+			<input id="h" type="text" name="quantity" placeholder="Высота">
+			<input id="f" type="text" name="quanti" placeholder="Основание">
+			<input id="button1" type="button" value="Ответ"/>
+  
+
+     <br><br>
+			<div id="str"></div>
+			</form>
+		</div>
+        <button id="btn_modal_window1">Смотреть решение</button>
+  <div id="my_modal1" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window1">×</span>
+      <p>Функция считывает числа из элементов формы input и по формуле, потом считает результат.</p>
+    </div>
+  </div>
+
+  <!-- СРАВНЕНИЕ ДЛИНЫ СТРОКИ -->
+  	<div>
+			<p>
+				Сравним строки. Введите две строки.
+			</p>
+	</div>
+
+	<div>
+			<form name="test3">
+			<input id="text1" type="text" name="tname1" placeholder="Первая ">
+			<input id="text2" type="text" name="tname2" placeholder="Вторая ">
+			<input id="button2" type="button" onclick="lenghtRun()" value="Ответ"/><br><br>
+			<div id="str1"></div>
+			</form>
+	</div>
+        <button id="btn_modal_window2">Смотреть решение</button>
+  <div id="my_modal2" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window2">×</span>
+      <p>Функция считывает строки из элементов формы input и сравнивает их.</p>
+    </div>
+  </div>
+
+ <!-- СРАВНЕНИЕ МАССИВА -->
+    <div>
+    	<div>
+     		<p>Сравнение длины строк.</p>
+    	 </div>
+
+   	 	<input id="ar" type="text" name="ar" placeholder="Введите 5 слов ">
+    	<input id="button3" type="button" value="Ответ"/><br>
+    	<div id="str3"></div><br>
+    </div>
+    <button id="btn_modal_window3">Смотреть решение</button>
+  <div id="my_modal3" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window3">×</span>
+      <p>Пользователь вводить массив строк, а функция ищет min и max длины.</p>
+    </div>
+  </div>
+
+	<!-- ТАЙМЕР -->
+  <div>
+      <p>Таймер.</p>
+     </div>
+	<div class="timer">
+    <div><input id="h" type="text" name="quantity" placeholder="часы"></div>
+    <div><input id="m" type="text" name="quantity" placeholder="минуты"></div>
+    <div><input id="s" type="text" name="quantity" placeholder="секунды"></div>
+  </div>
+
+  <div class="timer">
+    <div id="tim"></div>
+    <div id="tim2"></div>
+    <div id="tim3"></div>
+  </div>
+
+  <div class="timer">
+  <div><input id="start" type="button" value="Старт"></div>
+  <div><input id="end" type="button"  value="Стоп"></div>
+  <div><input id="reset" type="button"  value="Заново"></div>
+  </div>
+
+  <button id="btn_modal_window4">Смотреть решение</button>
+  <div id="my_modal4" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window4">×</span>
+      <p>Функция считывает введенные числа, а после преобразует их в таймер.</p>
+    </div>
+  </div>
+
+    <!-- ТЕСТ -->
+    <div id="dash"></div>
+    	<div>
+    		<p class="colortext">Давай пройдем тест</p>
+    	</div>
+    	<!-- 1 -->
+    	<div id="test">
+    	<div>
+    		<p class="nameq"> 1. JavaScript - это...</p>
+    		<div class ="question">
+				<input type="radio" name="q1" id="q1_1" ><label class="form-check-label" for="q1_1">язык сценариев</label><br>
+				<input type="radio" name="q1" id="q1_2" ><label class="form-check-label" for="q1_2">язык гипертекстовой разметки</label><br>
+				<input type="radio" name="q1" id="q1_3" ><label class="form-check-label" for="q1_3">формальный язык описания внешнего вида</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 2 -->
+
+    	<div>
+    		<p class="nameq"> 2. Для чего нужен JavaScript?</p>
+    		<div class ="question">
+				<input type="radio" name="q2" id="q2_1" ><label class="form-check-label" for="q2_1">Для создания баз данных</label><br>
+				<input type="radio" name="q2" id="q2_2" ><label class="form-check-label" for="q2_2">Для создания сайтов</label><br>
+				<input type="radio" name="q2" id="q2_3" ><label class="form-check-label" for="q2_2">Для математических операций</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 3 -->
+
+    	<div>
+    		<p class="nameq"> 3. Что он может?</p>
+    		<div class ="question">
+				<input type="radio" name="q3" id="q3_1" ><label class="form-check-label" for="q3_2">Создавать сайты</label><br>
+				<input type="radio" name="q3" id="q3_2" ><label class="form-check-label" for="q3_2">Взаимодействать с пользователем и событиями</label><br>
+				<input type="radio" name="q3" id="q3_3" ><label class="form-check-label" for="q3_2">Сохранять информацию на ПК</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 4 -->
+
+    	<div>
+    		<p class="nameq"> 4. Можно ли с его помощью делать анимации?</p>
+    		<div class ="question">
+				<input type="radio" name="q4" id="q4_1" ><label class="form-check-label" for="q4_2">Нет, для этого есть специальные программы</label><br>
+				<input type="radio" name="q4" id="q4_2" ><label class="form-check-label" for="q4_2">Да, но нужно подключать специальную библиотеку</label><br>
+				<input type="radio" name="q4" id="q4_3" ><label class="form-check-label" for="q4_2">Да, можно</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 5 -->
+
+    	<div>
+    		<p class="nameq"> 5. Какие вы знаете минусы JavaScript? </p>
+    		<div class ="question">
+				<input type="radio" name="q5" id="q5_1" ><label class="form-check-label" for="q5_2">У него нет минусов</label><br>
+				<input type="radio" name="q5" id="q5_2" ><label class="form-check-label" for="q5_2">Язык компилируется в момент исполнения кода</label><br>
+				<input type="radio" name="q5" id="q5_3" ><label class="form-check-label" for="q5_2">Язык слишком сложный и изучить его могут не все</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 6 -->
+
+    	<div>
+    		<p class="nameq"> 6. Чем плоха компиляция кода во время его исполнения?</p>
+    		<div class ="question">
+				<input type="radio" name="q6" id="q6_1" ><label class="form-check-label" for="q6_2">Ничем</label><br>
+				<input type="radio" name="q6" id="q6_2" ><label class="form-check-label" for="q6_2">Из-за этого увеличивается время выполнения программы</label><br>
+				<input type="radio" name="q6" id="q6_3" ><label class="form-check-label" for="q6_2">Программист не успеет исправить ошибки в коде</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 7 -->
+
+    	<div>
+    		<p class="nameq"> 7. JS применяется в качестве встраиваемого инструмента для... </p>
+    		<div class ="question">
+				<input type="radio" name="q7" id="q7_1" ><label class="form-check-label" for="q7_2">просмотра баз данных</label><br>
+				<input type="radio" name="q7" id="q7_2" ><label class="form-check-label" for="q7_2">программного доступа к различным версиям сайта</label><br>
+				<input type="radio" name="q7" id="q7_3" ><label class="form-check-label" for="q7_2">программного доступа к различным объектам приложений</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 8 -->
+
+    	<div>
+    		<p class="nameq"> 8. Где можно написать сценарий? </p>
+    		<div class ="question">
+				<input type="radio" name="q8" id="q8_1" ><label class="form-check-label" for="q8_2">в html документе или в отдельном js файле</label><br>
+				<input type="radio" name="q8" id="q8_2" ><label class="form-check-label" for="q8q3_2">в отдельном js файле</label><br>
+				<input type="radio" name="q8" id="q8_3" ><label class="form-check-label" for="q8_2">в Word файле</label><br>
+			</div>
+    		
+    	</div>
+    	<!-- 9 -->
+
+    	<div>
+    		<p class="nameq"> 9. Где можно просмотреть готовый сайт?</p>
+    		<div class ="question">
+				<input type="radio" name="q9" id="q9_1" ><label class="form-check-label" for="q9_2"> только на пк программиста</label><br>
+				<input type="radio" name="q9" id="q9_2" ><label class="form-check-label" for="q9_2">в специальной программе</label><br>
+				<input type="radio" name="q9" id="q9_3" ><label class="form-check-label" for="q9_2">в любом web-браузере</label><br>
+			</div>
+    		
+    	</div>
+    	
+    	<!-- 10 -->
+
+    	<div>
+    		<p class="nameq"> 10. Вам понравился этот сайт?</p>
+    		<div class ="question">
+				<input type="radio" name="q10" id="q10_1" ><label class="form-check-label" for="q10_2">да</label><br>
+				<input type="radio" name="q10" id="q10_2" ><label class="form-check-label" for="q10_2">нет</label><br>
+				<input type="radio" name="q10" id="q10_3" ><label class="form-check-label" for="q10_2">не знаю</label><br>
+			</div>
+    		
+    	</div>
+    	<button class="btn" id="apply" onclick="summary();">Завершить</button>
+    	<div id="str5"></div>
+    	</div>
+
+      <button id="btn_modal_window5">Смотреть решение</button>
+  <div id="my_modal5" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window5">×</span>
+      <p>Функция считывает значения из элементов формы input и запоминает их в массив ответов пользователя, после чего считает очки и выводит их.</p>
+    </div>
+  </div>
+
+    	 <!-- ВЫЗВАТЬ ВСПЛЫВАЮЩЕЕ ОКНО -->
+     <div>
+     	<p>Вызвать всплывающее окно.</p>
+     </div>
+
+   <button id="btn_modal_window">открыть</button>
+  <div id="my_modal" class="modal">
+    <div class="modal_content"><span class="close_modal_window">х</span><img class="j1" src="j1.jpg">
+      
+      <p id="str4"></p>
+    </div>
+  </div>
+  
+
+  <button id="btn_modal_window6">Смотреть решение</button>
+  <div id="my_modal6" class="modal">
+    <div class="modal_content">
+      <span class="close_modal_window6">×</span>
+      <p>При нажатии на кнопку появляется модальное окно. Дату получаем при помощи Date()</p>
+    </div>
+  </div>
+
+   
+
+
+	<script type="text/javascript">
+
+  /* ИМЯ */
+		let len2 = prompt ('Как Вас зовут ?','');
+		if (len2 != null){
+			alert('Добро пожаловать, ' + len2 + ' !');
+		}
+		document.getElementById('name1').innerHTML="Здравствуйте,  " + len2;
+
+/* ПЛОЩАДЬ ТРЕУГОЛЬНИКА*/
+		button1.onclick = function() {
+    var h = document.getElementById('h').value;
+    var f = document.getElementById('f').value;
+    document.getElementById('str').innerHTML="Ответ: "+ (h*f)/2;
+};
+
+/* ДЛИНА СТРОКИ */
+        var str1 = document.getElementById("text1");
+        var str2 = document.getElementById("text2");
+
+        var el_down = document.getElementById("str1");
+        function lenghtRun() {
+
+            var a = str1.value;
+            var b = str2.value;
+            var ans = a.localeCompare(b);
+            var res = "";
+            if (ans == -1) {
+                res = '"' + a + '" короче чем "' + b + '"';
+            } else if (ans == 0) {
+                res = 'Строки равны';
+            } else {
+                res = '"' + a + '" длиннее чем "' + b + '"';
+            }
+            el_down.innerHTML = res;
+
+        }
+
+/* СРАВНЕНИЕ МАССИВА */
+            button3.onclick = function() {
+        var ar = document.getElementById('ar').value;
+        function findLongestWord(str3) {
+        
+  var longestWord = str3.split(' ').sort(function(a, b) { return b.length - a.length; });
+  var shortestWord = str3.split(' ').sort(function(a, b) { return a.length - b.length; });
+
+document.getElementById('str3').innerHTML="Самое длинное: "+  longestWord[0].length + " ; Самое короткое: " + shortestWord[0].length + " ;";
+}
+findLongestWord(ar);
+};
+
+/* ВЫВОД ДАТЫ */
+Data = new Date();
+Year = Data.getFullYear();
+Month = Data.getMonth();
+Day = Data.getDate();
+switch (Month)
+{
+  case 0: fMonth="января"; break;
+  case 1: fMonth="февраля"; break;
+  case 2: fMonth="марта"; break;
+  case 3: fMonth="апреля"; break;
+  case 4: fMonth="мае"; break;
+  case 5: fMonth="июня"; break;
+  case 6: fMonth="июля"; break;
+  case 7: fMonth="августа"; break;
+  case 8: fMonth="сентября"; break;
+  case 9: fMonth="октября"; break;
+  case 10: fMonth="ноября"; break;
+  case 11: fMonth="декабря"; break;
+}
+Hour = Data.getHours();
+Minutes = Data.getMinutes();
+Seconds = Data.getSeconds();
+
+document.getElementById('str4').innerHTML= "Сегодня " + Day + " " + fMonth + " " + Year + "  " + Hour + ":" + Minutes + ":" + Seconds;
+	
+	/* ТЕСТ */	
+
+function summary() {
+  let count = document.getElementsByClassName('question').length; //Количество вопросов
+  let answers = document.querySelectorAll('.question'); //Все элементы div с вопросами (???)
+  let score = 0; //Количество верных ответов
+  let rightAnswers = ["q1_1", "q2_3", "q3_2", "q4_1", "q5_2", "q6_2", "q7_3", "q8_1", "q9_3", "q10_1"] //Список верных ответов
+  let test_ans = document.getElementById("str5");
+  for (let i = 0; i < count; i++) {
+    let chosenAnswer = answers[i].querySelector("input[type='radio']:checked"); //Из массива вопросов выбираем элемент радио, который выбрал пользователь
+    if (chosenAnswer && chosenAnswer.id == rightAnswers[i]) //Думал что будет работать если будет свреять по html разметке, но зря
+    {
+      score++;
+    }
+    console.log("Выбранный ответ: " + chosenAnswer.id);
+    console.log("Правильный ответ: " + rightAnswers[i]);
+    console.log("Очки: " + score);
+    //test_ans.innerHTML = "Выбранный ответ: " + chosenAnswer.id + "Правильный ответ: " + rightAnswers[i] + "Очки: " + score ;
+    test_ans.innerHTML  =  "Всего правильных ответов: " + score ;
+  }
+}
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО ИМЯ*/ 
+     var modal7 = document.getElementById("my_modal7");
+ var btn7 = document.getElementById("btn_modal_window7");
+ var span7 = document.getElementsByClassName("close_modal_window7")[0];
+
+ btn7.onclick = function () {
+    modal7.style.display = "block";
+ }
+
+ span7.onclick = function () {
+    modal7.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal7) {
+        modal7.style.display = "none";
+    }
+} 
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО  ПЛОЩАДЬ*/ 
+     var modal1 = document.getElementById("my_modal1");
+ var btn1 = document.getElementById("btn_modal_window1");
+ var span1 = document.getElementsByClassName("close_modal_window1")[0];
+
+ btn1.onclick = function () {
+    modal1.style.display = "block";
+ }
+
+ span1.onclick = function () {
+    modal1.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+} 
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО СРАВНЕНИЕ ДВУХ СТРОК*/ 
+     var modal2 = document.getElementById("my_modal2");
+ var btn2 = document.getElementById("btn_modal_window2");
+ var span2 = document.getElementsByClassName("close_modal_window2")[0];
+
+ btn2.onclick = function () {
+    modal2.style.display = "block";
+ }
+
+ span2.onclick = function () {
+    modal2.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+} 
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО СРАВНЕНИЕ ДЛИНЫ СТРОКИ*/ 
+     var modal3 = document.getElementById("my_modal3");
+ var btn3 = document.getElementById("btn_modal_window3");
+ var span3 = document.getElementsByClassName("close_modal_window3")[0];
+
+ btn3.onclick = function () {
+    modal3.style.display = "block";
+ }
+
+ span3.onclick = function () {
+    modal3.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+}
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО ТАЙМЕР*/ 
+     var modal4 = document.getElementById("my_modal4");
+ var btn4 = document.getElementById("btn_modal_window4");
+ var span4 = document.getElementsByClassName("close_modal_window4")[0];
+
+ btn4.onclick = function () {
+    modal4.style.display = "block";
+ }
+
+ span4.onclick = function () {
+    modal4.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+}
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО ТEST*/ 
+     var modal5 = document.getElementById("my_modal5");
+ var btn5 = document.getElementById("btn_modal_window5");
+ var span5 = document.getElementsByClassName("close_modal_window5")[0];
+
+ btn5.onclick = function () {
+    modal5.style.display = "block";
+ }
+
+ span5.onclick = function () {
+    modal5.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+}
+
+
+  /* ВСПЛЫВАЮЩЕЕ ОКНО */ 
+
+     var modal = document.getElementById("my_modal");
+ var btn = document.getElementById("btn_modal_window");
+ var span = document.getElementsByClassName("close_modal_window")[0];
+
+ btn.onclick = function () {
+    modal.style.display = "block";
+ }
+
+ span.onclick = function () {
+    modal.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+} 
+
+/* ВСПЛЫВАЮЩЕЕ ОКНО ВСПЛЫВАЮЩЕЕ ОКНО*/ 
+     var modal6 = document.getElementById("my_modal6");
+ var btn6 = document.getElementById("btn_modal_window6");
+ var span6 = document.getElementsByClassName("close_modal_window6")[0];
+
+ btn6.onclick = function () {
+    modal5.style.display = "block";
+ }
+
+ span6.onclick = function () {
+    modal6.style.display = "none";
+ }
+
+ window.onclick = function (event) {
+    if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+}
+
+/* ТАЙМЕР */ 
+
+var sec = 0;
+    var min = 0;
+    var hour = 0;
+    var timerId;
+    function F1() {
+      sec = document.getElementById('s').value;
+      min = document.getElementById('m').value;
+      hour = document.getElementById('h').value;
+        timerId = setInterval(F2, 1000);
+
+
+        function F2() {
+          
+          if(min>0){
+            if(sec == 0){
+              sec = sec + 60;
+              min --;
+              
+            }
+            sec  --;
+          }
+          else{
+            min = 0;
+          }
+          if(min==0){
+            sec  --;
+          }
+
+          if(hour>0){
+            if (min == 0) {
+              min = min +60;
+              hour --;
+            }
+            min--;
+            
+          }
+          else{
+            hour = 0;
+          }
+
+          
+
+          document.getElementById('tim').innerHTML= hour + " : ";
+          document.getElementById('tim2').innerHTML= min  + " : ";
+          document.getElementById('tim3').innerHTML= sec;
+          end.onclick = function(){clearInterval(timerId);}
+
+        } 
+
+    }     
+            
+    function F3() {
+      sec=document.getElementById('h').value;
+    }
+
+    start.onclick = F1;
+
+    reset.onclick = F3;
+
+
+
+
+	</script>
+
+</body>
+</html>
